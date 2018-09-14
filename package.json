@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start:server": "cd backend && nodemon server.js --exec babel-node --presets env,stage-0",
     "start:client": "cd client && npm start",
-    "start:dev": "concurrently \"npm start:server\" \"npm start:client\""
+    "start:dev": "concurrently \"npm run start:server\" \"npm run start:client\""
   },
   "keywords": [
     "MERN",
